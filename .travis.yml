@@ -10,9 +10,7 @@ script:
 
 
   deploy:
-    provider: docker-react
-    username: "$userName"
-    password: 
-      secure: "$pwd"
+    provider: azure_web_apps
+    site: docker-react
     on:
       branch: master
