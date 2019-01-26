@@ -16,4 +16,3 @@ script:
       secure: "$pwd"
     on:
       branch: master
-    
