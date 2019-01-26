@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t loudcloudorg/docker-react -f Dockerfile.dev .
+
+script:
+  - docker run loudcloudorg/docker-react -- --coverage
