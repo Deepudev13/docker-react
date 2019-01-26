@@ -11,8 +11,8 @@ script:
 
   deploy:
     provider: docker-react
-    username: "docker-react\$docker-react"
-    password: "xbRt3D2aRy9b9HbfAaMgewaz5oKqcWedn2hAEs0P5eoELRxdAiX6ptaR04qJ"
+    username: "docker-react\dsakfidasjflkasdhfljkasdhflkjas"
+    password: "Pass@123Pass@123"
     on:
       branch: master
     
