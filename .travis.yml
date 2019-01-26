@@ -7,3 +7,10 @@ before_install:
 
 script:
   - docker run loudcloudorg/docker-react npm run test -- --coverage
+
+
+  deploy:
+    provider: docker-react
+    username: "docker-react\$docker-react"      # If AZURE_WA_USERNAME isn't set
+    password: "xbRt3D2aRy9b9HbfAaMgewaz5oKqcWedn2hAEs0P5eoELRxdAiX6ptaR04qJ"   # If AZURE_WA_PASSWORD isn't set
+    
