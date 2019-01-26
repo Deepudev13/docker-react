@@ -13,4 +13,6 @@ script:
     provider: docker-react
     username: "docker-react\$docker-react"
     password: "xbRt3D2aRy9b9HbfAaMgewaz5oKqcWedn2hAEs0P5eoELRxdAiX6ptaR04qJ"
+    on:
+      branch: master
     
