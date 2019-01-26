@@ -8,6 +8,5 @@ before_install:
 script:
   - docker run loudcloudorg/docker-react npm run test -- --coverage
 
-
-  deploy:
-    provider: azure_web_apps
+deploy:
+  provider: azure_web_apps
